@@ -1,0 +1,27 @@
+{
+    "name": "clemherreman/docopt-symfony2",
+    "description": "Docopt Symfony2 bridge",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Clement Herreman",
+            "email": "clement.herreman@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.5",
+        "docopt/docopt": "0.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clemherreman\\Docopt\\Symfony2\\Test\\": "tests/",
+            "Clemherreman\\Docopt\\Symfony2\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
